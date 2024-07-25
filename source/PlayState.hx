@@ -1456,8 +1456,8 @@ class PlayState extends MusicBeatState
 			add(botPlayState);
 		
 		var creditTxt = new FlxText(876, 648, 348);
-     creditTxt.text = "PORTED BY\nFNF BR";
-    creditTxt.setFormat(Paths.font("vcr.ttf"), 30, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE,FlxColor.BLACK);
+     creditTxt.text = "";
+    creditTxt.setFormat(Paths.font("vcr.ttf"), 0, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE,FlxColor.BLACK);
     creditTxt.scrollFactor.set();
     add(creditTxt);
 
